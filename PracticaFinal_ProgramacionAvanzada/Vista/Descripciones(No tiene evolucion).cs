@@ -36,8 +36,6 @@ namespace PracticaFinal_ProgramacionAvanzada.Vista
 
         private void Btn_Volver_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            new Descripciones(IdSeleccionado).ShowDialog();
             this.Close();
         }
     }
